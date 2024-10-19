@@ -1,0 +1,50 @@
+body{
+    font-family: "Playwrite GB S", cursive;
+}
+
+.container{
+    padding-top: 2rem ;
+    /* padding-left:  calc(25% + 4rem);
+    padding-right:  calc(25% + 4rem); */
+    background-color: var(--white);
+}
+
+img{
+    width: 100%;
+    max-width: 38rem;
+    height: auto;
+    margin: 1.5rem 0;
+}
+
+h1{
+    margin-bottom: 2rem;
+    font-size: var(--headingfont);
+    color: var(--maincolor);
+}
+
+h2{
+    margin-bottom: 1.5rem;
+    font-size: var(--mainfont);
+}
+
+h3{
+    font-size: var(--secondfont);
+    font-weight: bold;
+}
+
+p{
+  font-size: var(--smalfont);
+}
+
+ul{
+  margin: 1.5rem 0;
+
+}
+
+ol{
+   margin-bottom: 5rem;
+}
+
+li{
+    font-size: var( --smalfont);
+}
